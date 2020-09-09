@@ -1,0 +1,17 @@
+.container{
+	max-width:1200px;
+	margin:auto;	
+}
+header{
+	height:200px;
+}
+nav{
+	padding:2px 10px;
+}
+h1{
+	top:122px;	
+	left:50px;
+}
+.main{
+	flex-direction: row;
+}

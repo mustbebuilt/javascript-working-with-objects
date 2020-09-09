@@ -1,0 +1,47 @@
+#digitalClock{
+	font-family:courier;
+	font-size: 3em;
+}
+#clockFace{
+	background-image:url("../images/romanClockFace.png");
+	width:300px;
+	height:300px;	
+	position:relative;
+}
+#secondHand{
+	position:absolute;
+	width:120px;
+	height:4px;
+	background-color:#F33;
+	top:148px;
+	left:118px;	
+	transform-origin: 30px 2px;
+}
+#minHand{
+	position:absolute;
+	width:120px;
+	height:4px;
+	background-color:#999;
+	top:148px;
+	left:118px;
+	transform-origin: 30px 2px;
+}
+#hrHand{
+	position:absolute;
+	width:60px;
+	height:6px;
+	background-color:#333333;
+	top:147px;
+	left:149px;
+	transform-origin: 0% 3px;
+}
+#pin{
+	border-radius:50px;
+	background-color:#666666;
+	width:20px;
+	height:20px;
+	position:absolute;
+	top:140px;
+	left:140px;
+}
+

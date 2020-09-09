@@ -1,0 +1,139 @@
+/*Variables*/
+:root {
+  --animation-speed: 0.4s;
+}
+body{
+	font-family:Arial, Helvetica, sans-serif;
+}
+.container{
+	width:100%;
+	max-width:1200px;
+	margin:auto;	
+}
+header{
+	height:200px;
+	background-image:url("../images/topbanner.jpg");
+	position:relative;
+}
+h1{
+	position:absolute;
+	top:122px;	
+	left:50px;
+	background: rgba(255,255,255,0.8);
+	padding:6px 16px;
+	border-radius: 8px;
+}
+h1 span{
+	position: relative;
+}
+.l1{
+	animation: letterBounce var(--animation-speed) ease-out 0s;
+}
+.l2{
+	animation: letterBounce var(--animation-speed) ease-out 0.1s;
+}
+.l3{
+	animation: letterBounce var(--animation-speed)ease-out 0.2s;
+}
+.l4{
+	animation: letterBounce var(--animation-speed) ease-out 0.3s;
+}
+.l5{
+	animation: letterBounce var(--animation-speed) ease-out 0.4s;
+}
+.l6{
+	animation: letterBounce var(--animation-speed) ease-out 0.5s;
+}
+.l7{
+	animation: letterBounce var(--animation-speed) ease-out 0.6s;
+}
+.l8{
+	animation: letterBounce var(--animation-speed) ease-out 0.7s;
+}
+nav{
+	background: rgba(255,255,255,0.8);
+	padding:2px 10px;
+}
+nav ul{
+	padding:0;
+	list-style-type:none;
+	display:flex;
+}
+nav ul li{
+	padding-bottom:5px;
+}
+nav ul li a{
+	text-decoration:none;
+	color: #000;
+	display:block;
+	padding:5px;
+	border-left: 1px solid #ddd;
+}
+nav ul li a:hover{
+	background-color:#4CAF50;
+	color:#fff;
+}
+.main{
+	display: flex;;
+}
+.contentLeft{
+	flex-basis:60%;
+	padding:15px;
+	margin:10px 0;
+}
+.contentRight{
+	flex-basis:40%;
+	padding:15px;
+	margin:10px 0;
+}
+table{
+	border-collapse: collapse;
+	margin:20px 0;
+}
+th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: #fff;
+  font-weight: 100;
+}
+th, td{
+	padding: 8px;
+	border: 1px solid #ddd;
+}
+tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+label{
+	display:block;
+	margin-top:15px;
+}
+input{
+	padding:5px;
+}
+.btn{
+  background-color: #4CAF50;
+  border: none;
+  color: #fff;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:5px 0;
+}
+footer{
+	clear:left;
+	border-top:1px solid #CCC;	
+	margin:5px 0;
+	padding:15px;
+	text-align:center;
+	font-size:0.7em;
+}
+@keyframes letterBounce {
+  	0%   {bottom: 0;}
+  	25%  {bottom: 15px;}
+	100% {bottom: 0;}
+	}
+}
